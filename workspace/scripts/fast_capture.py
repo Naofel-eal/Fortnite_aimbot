@@ -108,13 +108,13 @@ if __name__ == "__main__":
     args = parser.parse_args()
     modelPath = args.model
     if modelPath is None:
-        modelPath = "PATH TO MODEL"
+        modelPath = "C:\\Users\\naofe\\Documents\\Personnel\\Informatique\\FortniteIA\\yolov7\\workspace\\weights\\weightsV3.pt"
     print("[info] -> args OK.")
     
     #Loading model
     print("[info] -> loading model...")
     #model = load_model(path_or_model = modelPath)
-    model = custom(path_or_model='PATH TO MODEL')
+    model = custom(path_or_model="C:\\Users\\naofe\\Documents\\Personnel\\Informatique\\FortniteIA\\yolov7\\workspace\\weights\\weightsV3.pt")
     print("[info] -> model OK.")
     
     #Screen recording
