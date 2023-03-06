@@ -108,7 +108,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     modelPath = args.model
     if modelPath is None:
-        modelPath = "C:\\Users\\naofe\\Documents\\Personnel\\Informatique\\FortniteIA\\yolov7\\workspace\\weights\\weightsV3.pt"
+        modelPath = "PATH TO MODEL WEIGHTS"
     print("[info] -> args OK.")
     
     #Loading model
