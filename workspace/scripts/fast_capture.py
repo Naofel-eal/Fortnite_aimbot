@@ -114,7 +114,7 @@ if __name__ == "__main__":
     #Loading model
     print("[info] -> loading model...")
     #model = load_model(path_or_model = modelPath)
-    model = custom(path_or_model="C:\\Users\\naofe\\Documents\\Personnel\\Informatique\\FortniteIA\\yolov7\\workspace\\weights\\weightsV3.pt")
+    model = custom(path_or_model="PATH TO MODEL WEIGHTS")
     print("[info] -> model OK.")
     
     #Screen recording
